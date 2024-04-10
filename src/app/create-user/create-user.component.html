@@ -1,0 +1,10 @@
+<form (ngSubmit)="submit()" >
+    
+    <label for="first_name">ชื่อ:</label>
+    <input type="text" id="first_name" [(ngModel)]="form.first_name" name="first_name" required><br><br>
+    
+    <label for="last_name">นามสกุล:</label>
+    <input type="text" id="last_name" name="last_name" [(ngModel)]="form.last_name" required><br><br>
+    
+    <input type="submit" value="บันทึก">
+</form>
